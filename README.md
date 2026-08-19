@@ -1,1 +1,1 @@
-This repository contains a complete frontend replica of the OG AI chatbot ChatGPT, using vanilla HTML, CSS for beginners to learn & practice from this. It is dynamically responsive i.e. the website changed according to the screen sizes.
+This is a complete front-end replica of ChatGPT (dynamic & responsive). Read description for more details.
