@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body{
+    background-color: #212121;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    text-align: center;
+}
+
+a{text-decoration: none; color: white;}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    background-color: #363636;
+    padding: 20px;
+    border-radius: 25px;
+    width: 80vh;
+    box-sizing: border-box;
+}
+
+.cont{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 30vh;
+}
+
+.log{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 7px 17px;
+}
+
+.sign{
+    color: white;
+    background-color: #212121;
+    border: #515151 1px solid;
+    border-radius: 25px;
+    padding: 7px 22px;
+}
+
+.w{
+    background-color: #212121;
+    border: white 1px solid;
+    border-radius: 50%;
+    color: white;
+}
+
+h1{font-weight: lighter;}
+
+.ask{
+    position: relative;
+    border: none;
+    border-radius: 50%;
+    background-color: #545454;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+}
+
+.ask1{
+    background-color: #363636;
+    border: none;
+    padding: 10px;
+    color: white;
+    outline: none;
+}
+
+p{
+    font-weight: lighter;
+}
+
+.footer-links{display: none;}
+
+@media (max-width: 600px) {
+
+    .head > a:not(:first-child) {
+        display: none;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #212121;
+    }
+
+    footer::before {
+        content: "";
+        display: none;
+    }
+
+    footer a {
+        display: inline-block;
+        font-size: 14px;
+        color: white;
+        margin: 0 10px;
+    }
+
+    .cont {
+        margin: 20vh 0;
+        padding-bottom: 80px;
+    }
+
+    .box {
+        width: 90vw;
+    }
+      .log, .sign{
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .footer-links{display: block;}
+
+  .w{
+    width: 28px;
+    height: 28px;
+  }
+
+  .ask{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}}
